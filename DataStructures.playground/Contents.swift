@@ -7,4 +7,13 @@ public struct Stack<Element> {
     
     public init() {}
     
+    public mutating func push(_ element: Element) {
+        storage.append(element)
+    }
+    
 }
+
+var stack = Stack<Int>()
+stack.push(3)
+stack.push(5)
+
