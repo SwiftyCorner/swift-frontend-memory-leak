@@ -14,6 +14,7 @@
 		54EBC06227559DE500F59A52 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBC06127559DE500F59A52 /* Persistence.swift */; };
 		54EBC06527559DE500F59A52 /* SpendingTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54EBC06327559DE500F59A52 /* SpendingTracker.xcdatamodeld */; };
 		54EBC06D2755A02B00F59A52 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBC06C2755A02B00F59A52 /* MainView.swift */; };
+		54EBC0702755CC2000F59A52 /* AddCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EBC06F2755CC2000F59A52 /* AddCardForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		54EBC06127559DE500F59A52 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		54EBC06427559DE500F59A52 /* SpendingTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpendingTracker.xcdatamodel; sourceTree = "<group>"; };
 		54EBC06C2755A02B00F59A52 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		54EBC06F2755CC2000F59A52 /* AddCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,18 @@
 		54EBC06B2755A01C00F59A52 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				54EBC06E2755CC1000F59A52 /* AddCardForm */,
 				54EBC06C2755A02B00F59A52 /* MainView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		54EBC06E2755CC1000F59A52 /* AddCardForm */ = {
+			isa = PBXGroup;
+			children = (
+				54EBC06F2755CC2000F59A52 /* AddCardForm.swift */,
+			);
+			path = AddCardForm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54EBC06527559DE500F59A52 /* SpendingTracker.xcdatamodeld in Sources */,
+				54EBC0702755CC2000F59A52 /* AddCardForm.swift in Sources */,
 				54EBC06227559DE500F59A52 /* Persistence.swift in Sources */,
 				54EBC05B27559DE300F59A52 /* ContentView.swift in Sources */,
 				54EBC06D2755A02B00F59A52 /* MainView.swift in Sources */,
