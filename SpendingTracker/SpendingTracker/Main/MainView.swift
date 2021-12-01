@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct MainView: View {
     
     @State private var shouldPresentCardForm = false
@@ -77,7 +76,6 @@ struct MainView: View {
             .shadow(radius: 5)
             .padding(.horizontal)
             .padding(.top, 8)
-            
         }
     }
     
@@ -94,9 +92,6 @@ struct MainView: View {
         })
     }
 }
-
-
-
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
